@@ -19,7 +19,7 @@ On this meeeting, we will get hands-on experience with creating reproducible res
 + If there is time, I hope that someone would be willing to do an introduction to Github and version control.
 
 # Meeting 2: Tuesday October 5 from 15-16
-Now that we are all set and pro users of R Markdown, we will allocate more time to working with datasets from [#TidyTuesday](https://github.com/rfordatascience/tidytuesday). Furthermore, we'll have an introduction from [Tobias Widmann](https://twitter.com/TobiasWidmann) on how to make your own webpage in R Markdown through a couple of simple steps. Take a look at his awesome page here: https://tobiaswidmann.eu/ 
+Now that we are all set and pro users of R Markdown, we will allocate more time to working with datasets from [#TidyTuesday](https://github.com/rfordatascience/tidytuesday). Furthermore, we'll have an introduction from [Tobias Widmann](https://twitter.com/TobiasWidmann) on how to make your own webpage in R Markdown through a couple of simple steps. Take a look at his awesome [page](https://tobiaswidmann.eu/)
 
 # Meeting 3: Tuesday October 12 from 15-16
 TBA. When I was a kid, there was this children's TV show called "Bugs Bunnys Sunday Club". Every sunday they awarded the prize ["Granny of the week"](https://underholdning.tv2.dk/kendte/2015-07-16-nostalgi-husker-du-klassikerne-fra-snurre-snups-soendagsklub) and every time the granny was praised for being so kind to their grandchildren and made their life better. I think, we should do something similar in rSTARS - perhaps "R function of the week" where people do a very short presentation on a simple, but great function that made their life better. Obvious themes could be
