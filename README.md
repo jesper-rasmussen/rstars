@@ -7,7 +7,7 @@ Welcome to R Markdown STudy Group Accommodating  Reproducible Science - better k
 * Each week we will work on some dataset, learn to do efficient data wrangling, create awesome visualizations and make it all reproducible
 * **Most importantly**: It is not a course, it’s an environment where we sit together and work, help and inspire each other.
 * There is no preparation. Just show up!
-* There will be people on all levels. By creating this environment less experienced R stars can benefit from more experienced R stars, while the latter can benefit from conencting to peers at their level.
+* There will be people on all levels. By creating this environment less experienced R stars can benefit from more experienced R stars, while the latter can benefit from connecting to peers at their level.
 
 ## Rules
 There are two rules in rSTARS.
