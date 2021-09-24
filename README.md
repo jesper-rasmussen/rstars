@@ -5,7 +5,7 @@ Welcome to R Markdown STudy Group Accomodating Reproducible Science - better kno
 
 * We meet on Tuesdays from 15-16 on a weekly basis in 1341-315. The capacity of the room is 24. 
 * Each week we will work on some dataset, learn to do efficient data wrangling, create awesome visualizations and make it all reproducible
-* Most importantly: It is not a course, it's a work environment where we sit together where we work, help and inspire each other. 
+* **Most importantly**: It is not a course, it's an environment where we sit together and work, help and inspire each other. 
 * There is no preparation. Just show up!
 * There will be people on all levels. By creating this environment less expierienced R stars can befinit from more expierienced R stars, whil the latter can benefit from conencting to peers at their level.
 
