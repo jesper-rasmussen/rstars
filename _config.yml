@@ -1,0 +1,8 @@
+theme: jekyll-theme-slate
+
+title: Jesper Rasmussen
+description: PhD Fellow at Department of Political Science, Aarhus University
+
+github:
+  is_project_page: true
+  is_user_page: false
