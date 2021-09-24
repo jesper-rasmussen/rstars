@@ -54,5 +54,5 @@ TBA. When I was a kid, there was this children's TV show called "Bugs Bunnys Sun
 2. Creating awesome regression/descriptive tables
 3. All sorts of loops.
 
-# Meeting 4: Tuesday October 19
+# Meeting 4: Tuesday October 19 from 15-16
 TBA. 
