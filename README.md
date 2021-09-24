@@ -28,12 +28,15 @@ There are (too) many more or less useful resources for getting started with R an
     + Data Vizualization with [ggplot2](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
 
 # Meeting 1 - Tuesday September 28 from 15-16.
+**Prior to the first meeting**
 Please complete the following steps prior to attending rSTARS
 
 * Install R. You can do that [here](https://www.r-project.org/)
 * Install [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 * Open RStudio at least once, to see if it is working
 
+
+**Schedule**
 On this meeeting, we will get hands-on experience with creating reproducible research outputs in R markdown. Thus, the programme for the first meeting is:
 
 + Creating and setting up a reasonable Rmarkdown workflow
