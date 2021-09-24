@@ -1,8 +1,8 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 
-title: Jesper Rasmussen
-description: PhD Fellow at Department of Political Science, Aarhus University
+title: rSTARS
+description: R Markdown STudy group Accomodating Reproducible Science
 
 github:
-  is_project_page: true
+  is_project_page: false
   is_user_page: false
