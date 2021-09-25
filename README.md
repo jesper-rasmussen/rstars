@@ -12,8 +12,8 @@ Welcome to R Markdown STudy Group Accommodating  Reproducible Science - better k
 ## Rules
 There are two rules in rSTARS.
 
-1. The first rule of rSTARS is: You do not create irreproducible research output
-2. The second rule of rSTARS is: You do **not** create irreproducible research output
+1. The first rule of rSTARS is: You do not create irreproducible research outputs
+2. The second rule of rSTARS is: You do **not** create irreproducible research outputs
 
 ## Core resources
 There are (too) many more or less useful resources for getting started with R and R Markdown. 8 months in, here are a couple of my favorites!
@@ -29,6 +29,7 @@ There are (too) many more or less useful resources for getting started with R an
 
 # Meeting 1 - Tuesday September 28 from 15-16.
 **Prior to the first meeting**
+
 Please complete the following steps prior to attending rSTARS
 
 * Install R. You can do that [here](https://www.r-project.org/)
@@ -37,6 +38,7 @@ Please complete the following steps prior to attending rSTARS
 
 
 **Schedule**
+
 On this meeeting, we will get hands-on experience with creating reproducible research outputs in R markdown. Thus, the programme for the first meeting is:
 
 + Creating and setting up a reasonable Rmarkdown workflow
