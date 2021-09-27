@@ -1,5 +1,5 @@
 
-Welcome to R Markdown STudy Group Accommodating  Reproducible Science - better known as rSTARS! This study group is open for anyone who wish to improve a) their skills in data wrangling on different forms of data, b) data visualization, and c) creating reproducible research outputs in R Markdown. 
+Welcome to R Markdown STudy group Accommodating Reproducible Science - better known as rSTARS! This study group is open for anyone who wish to improve a) their skills in data wrangling on different forms of data, b) data visualization, and c) creating reproducible research outputs in R Markdown. 
 
 ## Expectations and disclaimers
 
