@@ -21,6 +21,7 @@ There are (too) many more or less useful resources for getting started with R an
 * [R 4 Data Science](https://r4ds.had.co.nz/index.html): (Almost) everything you need to do political (data) science as a newbie.
 * [R Markdown - The definitive guide](https://bookdown.org/yihui/rmarkdown/): Clean, simple startup guide on R Markdown
 * [Statistical tools for high-throughput data analysis](http://www.sthda.com/english/): Ugly website, but extremly useful! Great for basic inspiration on data wrangling and visualization. Use the search function!
+* [Data visualization](https://socviz.co/): This is a fantastic introduction to visualization by [Kiearan Healy](https://twitter.com/kjhealy). Use it! Also take a look at his course on [data wrangling](https://github.com/kjhealy/data_wrangling) with accompanying code.
 * [R Cheatsheets](https://www.rstudio.com/resources/cheatsheets/) - here you can find cheatsheets (read: help sheets) for everything. At first, I didn't knew what to do with these, but once you crack the code they will improve your quality of life with atleast 0.37 standard deviation!
     + [Base R](https://github.com/rstudio/cheatsheets/blob/master/base-r.pdf)
     + [R Markdown](https://github.com/rstudio/cheatsheets/blob/master/rmarkdown-2.0.pdf)
