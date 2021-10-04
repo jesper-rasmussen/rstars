@@ -28,6 +28,11 @@ There are (too) many more or less useful resources for getting started with R an
     + Data Transformartion with [dplyr](https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf)
     + Data Vizualization with [ggplot2](https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf)
 
+### Research outputs
+Here are some of my favorite packages to generate research output
+
+* Regression tables and descriptives: Use [Modelsummary](https://vincentarelbundock.github.io/modelsummary/articles/modelsummary.html). Take a look at [this beautiful descriptive table](https://twitter.com/Kunkakom/status/1444328826251759617?s=20) from [Alexander Wuttke](https://www.alexander-wuttke.de/)
+
 # Meeting 1 - Tuesday October 5 from 15-16.
 **Prior to the first meeting**
 
