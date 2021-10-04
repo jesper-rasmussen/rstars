@@ -1,0 +1,16 @@
+library(kableExtra)
+
+tmp <- mtcars[, c("mpg", "hp")]
+
+# create a list with individual variables
+# remove missing and rescale
+tmp_list <- lapply(tmp, na.omit)
+tmp_list <- lapply(tmp_list, scale)
+
+# create a table with `datasummary`
+# add a histogram with column_spec and spec_hist
+# add a boxplot with colun_spec and spec_box
+emptycol = function(x) " "
+datasummary(mpg + hp ~ Min + Max + Mean + SD + Heading("Boxplot") * emptycol + Heading("Histogram") * emptycol, data = tmp) %>%
+    column_spec(column = 6, image = spec_boxplot(tmp_list)) %>% # Specify that boxplot goes to the 6th column
+    column_spec(column = 7, image = spec_hist(tmp_list)) # Specify that hist goes to the 7th column
