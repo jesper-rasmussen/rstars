@@ -31,6 +31,7 @@ There are (too) many more or less useful resources for getting started with R an
 ### Research outputs
 Here are some of my favorite packages to generate research output
 
+* PDF and HTML documents: [YAML](https://bookdown.org/yihui/bookdown/a-single-document.html)
 * Regression tables and descriptives: Use [Modelsummary](https://vincentarelbundock.github.io/modelsummary/articles/modelsummary.html). Take a look at [this beautiful descriptive table](https://twitter.com/Kunkakom/status/1444328826251759617?s=20) from [Alexander Wuttke](https://www.alexander-wuttke.de/)
 
 # Meeting 1 - Tuesday October 5 from 15-16.
