@@ -1,0 +1,59 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = FALSE)
+remotes::install_github("easystats/report")
+pacman::p_load(tinytex,
+               rmarkdown,
+               bookdown,
+               modelsummary,
+              ggpubr, # Based Publication Ready Plots
+               knitr,
+               Rmisc, # SummarySE function
+               cjpowR, # power analysis for conjoint experiments. Install using devtools
+               cregg, # Conjoint package
+               summarytools,
+               stargazer, # Table - don't use this anymore
+               ggeffects,
+               grid,
+               haven,
+               rlang,
+               janitor,
+               ggplot2,
+               dplyr,
+               ggthemes,
+               margins,
+              gt,
+              psych, # For cohens'd
+              effsize,
+              effectsize,
+               estimatr,
+               tidyverse,
+               MASS,
+               broom,
+               lmtest, # Linear regression text
+               htmltools,
+               here, gridExtra, scales, rio, stringr, readxl, kableExtra, magick, webshot, labelled, car, reproducr, palmerpenguins, DT, leaflet,
+               r2symbols) # For inserting Alpha and Beta symbols
+
+# CREATE NO_ZERO FUNCTION FOR GGPLOT
+
+no_zero <- function(x) {
+  y <- sprintf('%.1f',x)
+  y[x > 0 & x < 1] <- sprintf('.%s',x[x > 0 & x < 1]*10)
+  y[x == 0] <- '0'
+  y[x > -1 & x < 0] <- sprintf('-.%s',x[x > -1 & x < 0]*-10)
+  y
+}
+
+
+
+#set graph parameters for plotting figures
+theme_set(theme_bw())
+theme_update(
+  text = element_text(size = 12),
+  panel.grid.major = element_blank(),
+  panel.grid.minor = element_blank(),
+  strip.background = element_blank(),
+  panel.background = element_blank()
+)
+
+```
