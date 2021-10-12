@@ -1,0 +1,22 @@
+---
+title: "Here I put the title"
+author:
+- Jesper Rasmussen^[Department of Political Science, Aarhus Univserity, jr@ps.au.dk]
+- Another Reproducible Researcher^[Department of Political Science, Aarhus Univserity, reproduce@ps.au.dk]
+date: |
+  `r lubridate::today()`
+output: # Here you can specify all the formats you want
+  bookdown::html_document2:
+    toc: yes
+    fig_caption: yes
+  bookdown::pdf_document2: # This specifies the pdf format and corresponding options
+    keep_tex: yes
+    number_sections: no
+    toc: yes
+    extra_dependencies: flafter
+tables: yes
+linestretch: 1 
+bibliography: ref.bib # Put your bibliography in the core folder
+abstract: This is some groundbreaking research
+thanks: 'Data and code: https://osf.io/3v6qk/'
+---
