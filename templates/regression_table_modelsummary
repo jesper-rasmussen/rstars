@@ -1,0 +1,36 @@
+# Specify the models that you use
+
+models <- list(  
+  "Sharing w/o controls" = lm(sharing_all ~ treatment * real, # So this is the first model
+        data = df),
+  "Sharing with controls" = lm(sharing_all ~ treatment * real + female + age4 + income_hh + educ3 + vote_next2, # this is the second
+        data = df)
+)
+
+# YOU CAN SKIP THIS. IF SO PUT A # BEFORE "coef_map" IN THE LAST SECTION
+# Define order of variables and give them names
+cm <- c("treatment"    = "Nudge", # So the intuition is that the variable "treatment" gets the name "Nudge" etc.
+        "realreal" = "Veracity",
+        "treatmentNudge:realreal"    = "Nudge X Veracity",
+        "(Intercept)" = "Constant")
+
+# YOU CAN SKIP THIS. IF SO PUT A # BEFORE "gof_map" IN THE LAST SECTION
+# Define what should be shown
+gm <- tibble::tribble(
+  ~raw,        ~clean,          ~fmt,
+  "nobs",      "N",             0,
+  "r.squared", "R<sup>2</sup>", 2,
+  "vcov.type", "SE clusters", 0)
+
+
+modelsummary(
+  models,
+  title = "Main analysis: Outcome: Sharing, Interaction: Treatment X Veracity \\label{tab:main_table}", # Give it a nice title. The label thing allows you to reference it in latex using ref{tab:main_table}
+  vcov = ~ resid, # Do you want clustered standard errors? For twoway cluster type e.g. "vcov = ~ resid + headline"
+  stars = TRUE, # Do you want Stars for significant results?
+  coef_map = cm, # If you didn't define cm, then put a "#" before this line
+  gof_map = gm, # If you didn't define gm, then put a "#" before this line
+  gof_omit = "DF|Deviance|R2|AIC|BIC", # This tells models summary which goodness of fit parameters it should include
+  notes = "Controls for sex, age, household income, education, voting intention, and treatment",
+  output = "default" # Try setting this to "latex", OR save it in a folder: output = here::here("2_figures", "0_tables", "my first graph.tex")
+) 
