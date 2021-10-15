@@ -1,0 +1,135 @@
+# This graph is heavily inspired by Bisgaard, M. (2019) ‘How getting the facts right can fuel Partisan‐Motivated reasoning’, American Journal of Political Science, 63(4), pp. 824–839. doi:10.1111/ajps.12432.
+
+# This link certainly helped too: https://bookdown.org/ndphillips/YaRrr/low-level-plotting-functions.html 
+
+# Otherwise, just do your own by trial and er
+
+# FALD I VILLIGHED TIL AT DELE FAKE NEWS
+# Specifying points
+rx0 <- 1
+ry0 <- 6
+rx1 <- 3
+ry1 <- 6
+# Fake plot
+fx0 <- 1
+fy0 <- 5
+fx1 <- 3
+fy1 <- 4
+rx <- c(rx0, rx1, fx0, fx1) # Coordinates
+ry <- c(ry0, ry1, fy0, fy1)
+
+# Create plot graph
+par(mfrow = c(1, 1), omd = c(0, .55, 0, 1)) # Specifies that there is going to be two graphs
+plot(
+  rx,
+  ry,
+  main = "Decrease fake news",
+  xlim = c(0, 4), # X akse længde
+  ylim = c(2,8), # Y Height
+  xaxt = 'n',
+  ylab = "",
+  xlab = "",
+  yaxt = 'n'
+)
+
+
+jit=.1 # I use this to shorten the arrows
+
+points(rx[1], # Color point black
+       ry[1],
+       pch = 21,
+       bg = "black",
+       cex = 1.25)
+points(rx[2], # Color point black
+       ry[2],
+       pch = 21,
+       bg = "black",
+       cex = 1.25)
+arrows(rx0, ry0, rx1-jit, ry1, length = .05) # Setup arrows. Notice the "-jit"
+arrows(fx0, fy0, fx1-jit, fy1, length = .05)
+text(
+  cex = 1,
+  x = c(1, 3),
+  y = 1,
+  c("Control", "Treatment"),
+  xpd = TRUE #,
+#  srt = 45
+)
+legend(
+  'bottomleft',
+  bty = 'n',
+  pch = 21,
+  pt.bg = c("black", "white"),
+  legend = c("Real news sharing", "Fake news sharing"),
+  cex = .8,
+  pt.cex = 1.25
+)
+axis(2,labels=NA) 
+axis(2,seq(0,10,.25),labels=NA,tck=-0.025)
+axis(2,c(2,8),labels=c("Share\nless","Share\nmore"),las=2,cex.axis=0.8)
+axis(1,c(1,3),labels=NA,las=2,line=0,cex.axis=1)
+
+
+# STIGNING I REAL
+# FALD I VILLIGHED TIL AT DELE FAKE NEWS
+# Specifying points
+rx0 <- 1
+ry0 <- 6
+rx1 <- 3
+ry1 <- 7
+# Fake plot
+fx0 <- 1
+fy0 <- 5
+fx1 <- 3
+fy1 <- 5
+rx <- c(rx0, rx1, fx0, fx1)
+ry <- c(ry0, ry1, fy0, fy1)
+
+# Create plot graph
+par(omd=c(.4,.95,0,1),new=T)
+plot(
+  rx,
+  ry,
+  main = "Increase real news",
+  xlim = c(0, 4), # X akse længde
+  ylim = c(2,8), # Y Height
+  xaxt = 'n',
+  ylab = "",
+  xlab = "",
+  yaxt = 'n'
+)
+
+
+points(rx[1],
+       ry[1],
+       pch = 21,
+       bg = "black",
+       cex = 1.25)
+points(rx[2],
+       ry[2],
+       pch = 21,
+       bg = "black",
+       cex = 1.25)
+arrows(rx0, ry0, rx1-jit, ry1, length = .05)
+arrows(fx0, fy0, fx1-jit, fy1, length = .05)
+text(
+  cex = 1,
+  x = c(1, 3),
+  y = 1,
+  c("Control", "Treatment"),
+  xpd = TRUE #,
+  #srt = 45
+)
+legend(
+  'bottomleft',
+  bty = 'n',
+  pch = 21,
+  pt.bg = c("black", "white"),
+  legend = c("Real news sharing", "Fake news sharing"),
+  cex = .8,
+  pt.cex = 1.25
+)
+axis(4,labels=NA)
+axis(4,seq(0,10,.25),labels=NA,tck=-0.025)
+axis(4,c(2,8),labels=c("Share\nless","Share\nmore"),las=2,cex.axis=0.8)
+axis(1,c(1,3),labels=NA,las=2,line=0,cex.axis=1) # Akser i bunden
