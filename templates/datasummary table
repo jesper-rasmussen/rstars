@@ -1,6 +1,12 @@
+####################################################################################################################################
+# See https://vincentarelbundock.github.io/modelsummary/articles/datasummary.html#histograms-1 for a more elaborate guide
+####################################################################################################################################
+
+# Load the kable extra package 
 library(kableExtra)
 
-tmp <- mtcars[, c("mpg", "hp")]
+# Assign the two columns "mpg" and "hp"  
+tmp <- mtcars[, c("mpg", "hp")] # This command says "from the *dataframe* mtcars, select the two columns (i.e. variable in stata language) "mpg" and "hp" to the *object* tmp
 
 # create a list with individual variables
 # remove missing and rescale
